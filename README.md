@@ -1,1 +1,1 @@
-Caching of inverse of a matrix
+Caching the inverse of a matrix
