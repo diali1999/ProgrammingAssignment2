@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## this function creates a special type of matrix
+## this function creates a special type of matrix, setinv sets the inverse of the matrix, getinv gets the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
  m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function returns inverse of the matrix from cache
+## This function returns inverse of the matrix from above.It first checks whether inverse is already calculated.If so,it gets the inverse from cache.
 
 cacheSolve <- function(x, ...) {
         m <- x$getinv()
